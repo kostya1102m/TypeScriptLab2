@@ -78,7 +78,10 @@ function Building() {
                         <Grid container spacing={2}>
                             {building.description.map((item, ind) => (
                                 <Grid size={{ xs: 12, md: 6 }} key={ind}>
-                                    <StyledTypography variant="body2">
+                                    <StyledTypography 
+                                        variant="body2"
+                                        fontSize="16px"
+                                    >
                                         {item}
                                     </StyledTypography>
                                 </Grid>

@@ -22,7 +22,7 @@ function Gallery() {
                             lg: '4 !important',
                         },
                     }}
-                    gap={8}>
+                    >
                     {imgData.map((item, index) => (
                         <Link key={index} to={"/building/" + index}>
                         <ImageListItem key={item.img}>
